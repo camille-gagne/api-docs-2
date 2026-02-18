@@ -1,0 +1,47 @@
+/* Force full width for content area */
+body {
+    max-width: 100% !important;
+    font-size: 16px;  /* adjust base font size */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+}
+
+h1 {
+    font-weight: 800 !important;
+    font-size:2.5rem;
+    border-bottom: 3px solid #2e7eed;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+    margin-top:0.5em;
+}
+
+h2 {
+    border-bottom: 3px solid #2e7eed;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+    margin-top:0.5em;
+}
+
+a.reference {
+    border-bottom: None
+}
+a.visited {
+    color: #004B6B
+}
+
+/*Put logo to the left instead of centered*/
+div.sphinxsidebarwrapper p.logo{
+    text-align: left !important
+}
+
+/*Make 'Recherche Rapide' label smaller*/
+div.sphinxsidebar h3#searchlabel{
+    font-size: 16px;
+}
+
+/*Hide searchbar for now*/
+div.sphinxsidebarwrapper #searchbox {
+    display: none !important;
+}
