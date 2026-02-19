@@ -9,7 +9,7 @@
 project = 'PlumeIA-API'
 copyright = '2026, PlumeIA Inc.'
 author = 'PlumeIA Inc.'
-release = '0.1.1'
+release = '0.1.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
