@@ -39,7 +39,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install sphinx # Add any other themes/extensions you use
-          touch .nojekyll
 
       - name: Build Sphinx Documentation
         run: |
