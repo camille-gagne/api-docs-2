@@ -44,9 +44,6 @@ jobs:
         run: |
            sphinx-build docs _build
 
-      - name: Check custom.css content
-        run: cat _static/custom.css
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
